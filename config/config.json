@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "custom-accordion-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/customAccordion/CustomAccordionWebPart.js",
+          "manifest": "./src/webparts/customAccordion/CustomAccordionWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CustomAccordionWebPartStrings": "lib/webparts/customAccordion/loc/{locale}.js"
+  }
+}

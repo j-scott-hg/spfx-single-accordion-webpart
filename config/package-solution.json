@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Single Accordion",
+    "id": "f90b37cb-be2a-4524-b316-e01314346974",
+    "version": "1.0.0.0",
+    "iconPath": "images/single-accordion.png",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "A single expandable accordion section for disclaimers, policies, and supplementary content."
+      },
+      "longDescription": {
+        "default": "Single Accordion lets authors add one collapsible disclosure section to any modern SharePoint page. Configure trigger text, body HTML, typography, colors, icon style, and animation all from the property pane."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Single Accordion Feature",
+        "description": "Activates the Single Accordion web part.",
+        "id": "6aaee59f-6789-41ff-8ed8-cb7edea156b9",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/custom-accordion-webpart.sppkg"
+  }
+}
